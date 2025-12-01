@@ -20,12 +20,11 @@ const About: React.FC = () => {
               </p>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img src="https://picsum.photos/id/1025/800/600" alt="Team meeting" className="w-full h-full object-cover" />
+              <img src="https://picsum.photos/id/815/2074/1383" alt="Team meeting" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
       </div>
-
       {/* Team Section */}
       <div className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

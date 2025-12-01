@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-1">{content.contact.addressTitle}</h3>
-                  <p className="text-gray-600">Rua da Esperança, 123<br/>1000-001 Lisboa, Portugal</p>
+                  <p className="text-gray-600">Espaço a anunciar - Castelo Branco</p>
                 </div>
               </div>
             </div>

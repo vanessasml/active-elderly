@@ -35,17 +35,17 @@ export const TEAM_DATA: TeamMember[] = [
   {
     name: "Fernanda Pinheiro",
     role: "Assistente Social e Diretora Geral",
-    image: "https://picsum.photos/id/64/300/300"
+    image: "https://picsum.photos/id/177/2515/1830"
   },
   {
     name: "Por preencher",
     role: "Coordenador de Atividades",
-    image: "https://picsum.photos/id/91/300/300"
+    image: "https://picsum.photos/id/177/2515/1830"
   },
   {
     name: "Anuncio em Breve",
     role: "Fisioterapeuta",
-    image: "https://picsum.photos/id/338/300/300"
+    image: "https://picsum.photos/id/177/2515/1830"
   }
 ];
 
