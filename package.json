@@ -1,9 +1,9 @@
 {
   "name": "idoso-ativo",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://vanessasml.github.io/elderly-care-website",
+  "homepage": "https://vanessasml.github.io/active-elderly",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
