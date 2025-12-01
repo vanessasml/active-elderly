@@ -83,7 +83,7 @@ const Home: React.FC = () => {
       
       {/* Image Banner */}
       <div className="h-64 md:h-96 overflow-hidden relative">
-          <img src="https://picsum.photos/id/128/1920/600" alt="Seniors happy" className="w-full h-full object-cover" />
+          <img src="https://picsum.photos/id/492/5000/3324" alt="Seniors happy" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <Link to="/contact" className="bg-secondary hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full text-lg transition-transform hover:scale-105">
                   {content.home.ctaBottom}

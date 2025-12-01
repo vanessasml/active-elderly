@@ -3,32 +3,40 @@ import { Content, Activity, TeamMember, Partner } from './types';
 export const ACTIVITIES_DATA: Activity[] = [
   {
     id: 1,
-    title: "Workshop de Pintura Criativa",
-    date: "2026",
-    description: "Uma tarde cheia de cores e expressão artística onde os nossos idosos exploraram a sua criatividade através da aguarela.",
-    imageUrl: "https://picsum.photos/id/1015/800/600"
-  },
-  {
-    id: 2,
-    title: "Caminhada no Parque da Cidade",
-    date: "2026",
-    description: "Promoção da saúde física e convívio social com uma caminhada leve, seguida de um piquenique saudável.",
-    imageUrl: "https://picsum.photos/id/1084/800/600"
-  },
-  {
-    id: 3,
     title: "Aula de Inclusão Digital",
     date: "2026",
     description: "Ajudando a comunidade a conectar-se com familiares distantes através do uso de tablets e smartphones.",
     imageUrl: "https://picsum.photos/id/3/800/600"
   },
   {
-    id: 4,
-    title: "Baile de Outono",
+    id: 2,
+    title: "Caminhadas na Natureza",
     date: "2026",
-    description: "Música, dança e muita alegria marcaram o nosso tradicional baile de outono.",
-    imageUrl: "https://picsum.photos/id/129/800/600"
-  }
+    description: "Promoção da saúde física e convívio social com uma caminhada leve, seguida de um piquenique saudável.",
+    imageUrl: "https://picsum.photos/id/17/2500/1667"
+  },
+  {
+    id: 3,
+    title: "Workshop de Costura",
+    date: "2026",
+    description: "Uma tarde dedicada à arte da costura, onde os nossos idosos aprenderam novas técnicas e criaram peças únicas.",
+    imageUrl: "https://picsum.photos/id/284/2048/1365"
+  },
+  {
+    id: 4,
+    title: "Workshop de Pintura Criativa",
+    date: "2026",
+    description: "Uma tarde cheia de cores e expressão artística onde os nossos idosos exploraram a sua criatividade através da aguarela.",
+    imageUrl: "https://picsum.photos/id/1015/800/600"
+  },
+  {
+    id: 5,
+    title: "Workshop de Culinária Tradicional",
+    date: "2026",
+    description: "Troca de ideias e receitas tradicionais e promovendo a socialização através da culinária.",
+    imageUrl: "https://picsum.photos/id/292/3852/2556"
+  },
+  
 ];
 
 export const TEAM_DATA: TeamMember[] = [
