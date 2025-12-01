@@ -43,7 +43,7 @@ export const TEAM_DATA: TeamMember[] = [
     image: "https://picsum.photos/id/177/2515/1830"
   },
   {
-    name: "Anuncio em Breve",
+    name: "Por preencher",
     role: "Fisioterapeuta",
     image: "https://picsum.photos/id/177/2515/1830"
   }
@@ -51,9 +51,6 @@ export const TEAM_DATA: TeamMember[] = [
 
 export const PARTNERS_DATA: Partner[] = [
   { name: "Câmara Municipal de Castelo Branco", website: "#" },
-  { name: "Anuncio em Breve", website: "#" },
-  { name: "Anuncio em Breve", website: "#" },
-  { name: "Anuncio em Breve", website: "#" }
 ];
 
 export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
@@ -68,7 +65,8 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
     home: {
       heroTitle: "Envelhecimento Ativo e Feliz",
       heroSubtitle: "Promovemos a qualidade de vida, autonomia e integração social dos idosos através de atividades e apoio comunitário.",
-      cta: "Junte-se a Nós",
+      ctaTop: "Actividades Planeadas",
+      ctaBottom: "Seja Parceiro / Voluntário",
       featuresTitle: "O Que Fazemos",
       feature1Title: "Inclusão Digital",
       feature1Desc: "Atividades para ajudar os idosos a conectarem-se com a tecnologia e o mundo digital.",
@@ -88,7 +86,7 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
     },
     activities: {
       title: "Diário de Atividades",
-      subtitle: "Acompanhe os nossos momentos mais recentes e as memórias que construímos juntos.",
+      subtitle: "Acompanhe os nossos momentos mais recentes ou que estamos a planear.",
     },
     about: {
       title: "Quem Somos",
@@ -123,7 +121,8 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
     home: {
       heroTitle: "Active and Happy Aging in Place",
       heroSubtitle: "We promote quality of life, autonomy, and social integration for the elderly through activities and community support.",
-      cta: "Join Us",
+      ctaTop: "Planned Activities",
+      ctaBottom: "Become a Partner / Volunteer",
       featuresTitle: "What We Do",
       feature1Title: "Digital Inclusion",
       feature1Desc: "Activities to help the elderly connect with technology and the digital world.",
@@ -143,7 +142,7 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
     },
     activities: {
       title: "Activity Diary",
-      subtitle: "Follow our most recent moments and the memories we build together.",
+      subtitle: "Follow our most recent moments and planned activities.",
     },
     about: {
       title: "Who We Are",

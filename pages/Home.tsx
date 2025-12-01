@@ -20,10 +20,10 @@ const Home: React.FC = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                to="/contact"
+                to="/activities"
                 className="bg-primary hover:bg-teal-700 text-white font-bold py-3 px-8 rounded-full transition-colors shadow-lg"
               >
-                {content.home.cta}
+                {content.home.ctaTop}
               </Link>
               <Link
                 to="/about"
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
           <img src="https://picsum.photos/id/128/1920/600" alt="Seniors happy" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <Link to="/contact" className="bg-secondary hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full text-lg transition-transform hover:scale-105">
-                  {content.home.cta}
+                  {content.home.ctaBottom}
               </Link>
           </div>
       </div>

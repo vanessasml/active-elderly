@@ -30,7 +30,8 @@ export interface Content {
   home: {
     heroTitle: string;
     heroSubtitle: string;
-    cta: string;
+    ctaTop: string;
+    ctaBottom: string;
     featuresTitle: string;
     feature1Title: string;
     feature1Desc: string;
