@@ -65,7 +65,7 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
     home: {
       heroTitle: "Envelhecimento Ativo e Feliz",
       heroSubtitle: "Promovemos a qualidade de vida, autonomia e integração social dos idosos através de atividades e apoio comunitário.",
-      ctaTop: "Actividades Planeadas",
+      ctaTop: "Diário de Actividades",
       ctaBottom: "Seja Parceiro / Voluntário",
       featuresTitle: "O Que Fazemos",
       feature1Title: "Inclusão Digital",
